@@ -16,7 +16,7 @@ $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
    
 // Crear el email y enviar el mensaje
-$to = 'ortdav0799@gmail.com'; 
+$to = 'hola@cdewifi.com.py'; 
 $email_subject = "Contactos de la Web:  $name";
 $email_body = "Has recibido un mensaje de.\n\n"."Los detalles:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
    

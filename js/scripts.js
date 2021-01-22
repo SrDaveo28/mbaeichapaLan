@@ -58,27 +58,28 @@
 
 
     document.getElementById("team").innerHTML= /*html */`
+    <!-- mapa-->
     <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Donde Estamos</h2>
+    <div class="text-center">
+        <h2 class="section-heading text-uppercase">Donde Estamos</h2>
 
-                </div>
-                <div class="map-responsive">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.732084509911!2d-54.61249728471961!3d-25.513980242463816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f68ffe32382b1d%3A0x5abd078f1aa982a!2sEdificio%20Damasco!5e0!3m2!1ses!2spy!4v1611087740212!5m2!1ses!2spy" 
-                            width="600" 
-                            height="450" 
-                            frameborder="0" 
-                            style="border:0;" 
-                            allowfullscreen="" 
-                            aria-hidden="false" 
-                            tabindex="0">
-                        </iframe>
-                    </div> 
     </div>
+    <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.732084509911!2d-54.61249728471961!3d-25.513980242463816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f68ffe32382b1d%3A0x5abd078f1aa982a!2sEdificio%20Damasco!5e0!3m2!1ses!2spy!4v1611087740212!5m2!1ses!2spy" 
+                width="600" 
+                height="450" 
+                frameborder="0" 
+                style="border:0;" 
+                allowfullscreen="" 
+                aria-hidden="false" 
+                tabindex="0">
+            </iframe>
+        </div> 
+</div>
     
             
     `
-    let map;
+;
     
 
 })(jQuery); // End of use strict
