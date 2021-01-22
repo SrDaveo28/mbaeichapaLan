@@ -100,6 +100,50 @@
                 </div>
             </div>
 
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/ejemplos.jpg" alt="" />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Ejemplos</div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/mens.jpg" alt="" />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Segmentación Hombres</div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/womans.jpg" alt="" />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Segmentación Mujeres</div>
+                        
+                    </div>
+                </div>
+            </div>
            
             
         </div>
@@ -139,84 +183,3 @@ document.getElementById("clientes").innerHTML= /*html */`
     `
 ;
 
-document.getElementById("modales").innerHTML= /*html */`
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="modal-body">
-                            <!-- Detalles del proyecto van acá-->
-                            <h2 class="text-uppercase">¿Como Funciona?</h2>
-                            <div class="video-responsive">
-                                <video controls>
-                                    <source src="assets/videos/leanon.mp4" type="video/mp4">
-                                </video>
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <!-- Modal 2-->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="modal-body">
-                            <!-- Detalles del proyecto van acá-->
-                            <h2 class="text-uppercase">Anuncie con nosotros</h2>
-                            <div class="video-responsive">
-                                <video controls>
-                                    <source src="assets/videos/anuncieconnosotros.mp4" type="video/mp4">
-                                </video>
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <!-- Modal 3-->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="modal-body">
-                            <!-- Detalles del proyecto van acá-->
-                            <h2 class="text-uppercase">Aumente sus ingresos</h2>
-                        
-                            <a href="assets/img/Captira belleza.jpg" data-lightbox="roadtrip"><img class="img-fluid mx-auto" src="assets/img/Captira belleza.jpg" alt="" /></a>
-                            <a href="assets/img/Captura hombre deporte.jpg" data-lightbox="roadtrip"><img class="img-fluid  mx-auto" src="assets/img/Captura hombre deporte.jpg" alt="" /></a>
-                            
-                            
-                            
-                            
-                            <p>Al generar contenido exclusivo de productos o servicios usted puede hablarle directamente a sus clientes, sea certero en su publicidad.</p>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    
-            
-    `
- ;
