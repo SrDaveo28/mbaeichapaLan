@@ -181,5 +181,36 @@ document.getElementById("clientes").innerHTML= /*html */`
     
             
     `
+    
 ;
+//codigo feo pero por cuestiones de tiempo no lo hice global al llamar la funcion(lo voy a pulir cuando pueda xdxd)
+var video = document.getElementById("video1");
+var video2= document.getElementById("video2");
+var video3= document.getElementById("video3");
+var video4= document.getElementById("video4");
+var video5= document.getElementById("video5");
+
+
+
+
+
+function pausa() {
+    video.pause();
+}
+
+function pausa2() {
+    video2.pause();
+}
+
+function pausa3() {
+    video3.pause();
+}
+
+function pausa4() {
+    video4.pause();
+}
+
+function pausa5() {
+    video5.pause();
+}
 
