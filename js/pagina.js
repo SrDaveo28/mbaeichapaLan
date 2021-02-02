@@ -162,18 +162,26 @@ document.getElementById("clientes").innerHTML= /*html */`
         
         <h2 class="text-center">Empresas Que Confian En Nosotros</h2>
         <div class="row">
-            
-            <div class="col-md-3 col-sm-6 my-3">
-                <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/envato.jpg" alt="" /></a>
-            </div>
-            <div class="col-md-3 col-sm-6 my-3">
-                <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/designmodo.jpg" alt="" /></a>
-            </div>
-            <div class="col-md-3 col-sm-6 my-3">
-                <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/themeforest.jpg" alt="" /></a>
-            </div>
-            <div class="col-md-3 col-sm-6 my-3">
-                <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/creative-market.jpg" alt="" /></a>
+            <div class="slider owl-carousel">
+                <div class="card">
+                    <div class="img"><img src="assets/img/clientes/CDElogo.jpeg" alt=""></div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="assets/img/clientes/mdsdigital.jpeg" alt=""></div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="assets/img/clientes/powerCredit.jpeg" alt=""></div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="assets/img/clientes/SP.jpeg" alt=""></div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="assets/img/clientes/beerbar.jpeg" alt=""></div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="assets/img/clientes/mdsAdd.jpeg" alt=""></div>
+                </div>
+                
             </div>
         </div>
     </div>
@@ -213,4 +221,7 @@ function pausa4() {
 function pausa5() {
     video5.pause();
 }
+
+//owl carousel 
+
 
