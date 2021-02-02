@@ -170,7 +170,7 @@ document.getElementById("clientes").innerHTML= /*html */`
                     <div class="img"><img src="assets/img/clientes/mdsdigital.jpeg" alt=""></div>
                 </div>
                 <div class="card">
-                    <div class="img"><img src="assets/img/clientes/powerCredit.jpeg" alt=""></div>
+                    <div class="img"><img src="assets/img/clientes/mdsAdd.jpeg" alt=""></div>
                 </div>
                 <div class="card">
                     <div class="img"><img src="assets/img/clientes/SP.jpeg" alt=""></div>
@@ -178,10 +178,10 @@ document.getElementById("clientes").innerHTML= /*html */`
                 <div class="card">
                     <div class="img"><img src="assets/img/clientes/beerbar.jpeg" alt=""></div>
                 </div>
+               
                 <div class="card">
-                    <div class="img"><img src="assets/img/clientes/mdsAdd.jpeg" alt=""></div>
+                    <div class="img"><img src="assets/img/clientes/powerCredit.jpeg" alt=""></div>
                 </div>
-                
             </div>
         </div>
     </div>
